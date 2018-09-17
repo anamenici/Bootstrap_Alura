@@ -1,2 +1,2 @@
-# Logica_Alura
-Curso de lógica de programação Alura
+# Bootstrap_Alura
+Criação de site da Casa Fina Arquitetura
