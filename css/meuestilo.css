@@ -18,3 +18,10 @@
     display: inline-block;
     vertical-align: top;
 }
+footer{
+    padding: 1em;
+    background: #333;
+    color: #FFF;
+    margin-top: 10px;
+    
+}
