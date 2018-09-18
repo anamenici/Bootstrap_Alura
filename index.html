@@ -116,28 +116,27 @@
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                <img src="img/depoimentos/depoimento1.png">
-                <div class="carousel-caption">
-                    <h3>Yuri Padilha</h3>
-                    <p>Gostei muito e achei o serviço rápido</p>
-                </div>
-                </div>
-                <div class="item">
-                <img src="img/depoimentos/depoimento2.png">
-                <div class="carousel-caption">
-                    <h3>Caio Souza</h3>
-                    <p>Gostei muito do serviço também.</p>
-                </div>
-                </div>
-                <div class="item">
-                <img src="img/depoimentos/depoimento3.png">
-                <div class="carousel-caption">
-                    <h3>Fernando Steffaninni</h3>
-                    <p>Adorei tudo! Recomendo!</p>
-                </div>
-                </div>
-
+                <figure class="item active">
+                    <img src="img/depoimentos/depoimento1.png">
+                    <figcaption class="carousel-caption">
+                        <h3>Yuri Padilha</h3>
+                        <p>Gostei muito e achei o serviço rápido</p>
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="img/depoimentos/depoimento2.png">
+                    <figcaption class="carousel-caption">
+                        <h3>Caio Souza</h3>
+                        <p>Gostei muito do serviço também.</p>
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="img/depoimentos/depoimento3.png">
+                    <figcaption class="carousel-caption">
+                        <h3>Fernando Steffaninni</h3>
+                        <p>Adorei tudo! Recomendo!</p>
+                    </figcaption>
+                </figure>
             </div>
             
             <!-- Controls -->
@@ -151,7 +150,60 @@
             </a>
         </div> 
     </section>
-    
+
+    <section class="container">
+        <h2>Vídeo institucional</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Pv1AygeI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <p>Entre em  contato conosco</p>
+
+        <form>
+            <div class="form-group">
+                    <label for="contato-nome">Nome:</label>
+                    <input class="form-control" type="text" id="contato-nome" placeholder="Seu nome">
+            </div>
+
+            <div class="form-group">
+                <label for="contato-email">E-mail:</label>
+                <div class="input-group">
+                    <div class="input-group-addon">@</div>
+                    <input class="form-control" type="email" id="contato-email" placeholder="Seu e-mail">
+                </div>
+            </div>
+            
+            <div class="grupo-radio">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="tipo-pessoa" checked>
+                        Pessoa física
+                    </label>
+                </div>
+
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="tipo-pessoa">
+                        Pessoa jurídica
+                    </label>
+                </div>
+            </div><!-- 
+
+            --><select name="tipo-solicitacao" class="form-control contato-select">
+                <option selected disabled>Tipo de Solicitação</option>
+                <option value="">Agendar visitas</option>
+                <option value="">Dúvidas</option>
+                <option value="">Reclamações ou sugestões</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+    </section>
+
     <script src="js\jquery.js"></script>
     <script src="bootstrap\js\bootstrap.min.js"></script>
 </body>

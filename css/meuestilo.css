@@ -8,3 +8,13 @@
     color: #FFF;
     margin-bottom: 0;
 }
+.grupo-radio {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.contato-select{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
